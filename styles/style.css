@@ -196,7 +196,7 @@ a h2:hover{
     }
 
     a h2{
-        font-size: 2.4rem;
+        font-size: 2.2rem;
     }
     
  }
@@ -208,11 +208,11 @@ a h2:hover{
     }
 
     .navbar .navbar-nav .nav-link{
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
 
     a h2{
-        font-size: 3rem;
+        font-size: 2.7rem;
     }
  }
 
@@ -317,7 +317,7 @@ a h2:hover{
    }
 
    .hero-content h2{
-    font-size: 3rem;
+    font-size: 3.2rem;
    }
 
    .hero-content button{
@@ -330,3 +330,275 @@ a h2:hover{
 
 
 /*========================================================= Home section Ends ===========================================================*/
+
+
+
+/*========================================================= Services section Starts ===========================================================*/
+
+#service h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.5rem;
+    background: -webkit-linear-gradient(90deg, var(--blue-color), var(--red-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*side 1*/
+
+.side-1{
+    background: linear-gradient(90deg, var(--tomato-color), var(--blue-color));
+}
+
+.side-1 h2{
+    color:rgb(33, 61, 126);
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px var(--tomato-color);
+    transition: all .3 ease;
+}
+
+.side-1 h2:hover{
+    color: var(--red-color);
+    text-shadow: 1px 1px 1px rgb(33, 61, 126);
+}
+
+
+.carousel-item img{
+    height: 50%;
+    width: 70%;
+    object-fit: cover;
+}
+
+.carousel-item p{
+    background: linear-gradient(135deg, rgba(255, 0, 0, 0.336), rgba(0, 0, 255, 0.429) );
+    color: var(--black-color);
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 2rem 0;
+}
+
+.carousel-item button{
+    outline: none;
+    border: none;
+    height: 4rem;
+    width: 8rem;
+    border-radius: 45%;
+    font-size: 1.2rem;
+    color: var(--red-color);
+    background: var(--black-color);
+    font-weight: bold;
+    font-family: 'Mulish' sans-serif;
+    text-transform: capitalize;
+    letter-spacing: .3rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+
+}
+
+
+.carousel-item button:hover{
+    color: var(--black-color);
+    background: var(--red-color);
+}
+
+.carousel-inner:hover{
+    transform: scale(.9);
+}
+
+
+/*=============== Media Queries side 1 =================*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media screen and (min-width: 576px) {
+    #service h1{
+        font-size: 2.7rem;
+    }
+
+    .side-1 h2{
+        font-size: 2.5rem;
+    }
+
+    .carousel-item img{
+        width: 75%;
+    }
+
+    .carousel-item p{
+        font-size: 1.5rem;
+    }
+
+    .carousel-item button{
+        font-size: 2rem;
+        height: 7rem;
+        width: 8rem;
+    }
+     
+  }
+ 
+ 
+ /* Large devices (desktops, 992px and up)*/
+ @media screen and (min-width: 992px) { 
+    #service h1{
+        font-size: 4rem;
+    }
+
+    .side-1 h2{
+        font-size: 3rem;
+    }
+
+    .carousel-item img{
+        width: 75%;
+    }
+
+    .carousel-item p{
+        font-size: 1.5rem;
+    }
+
+    .carousel-item button{
+        font-size: 2.2rem;
+        height: 7rem;
+        width: 11rem;
+    }
+  }
+ 
+ 
+
+  /*side 2*/
+
+.side-2{
+    background: linear-gradient(90deg, var(--blue-color), var(--tomato-color));
+}
+
+.side-2 h2{
+    color:rgb(33, 61, 126);
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px var(--tomato-color);
+    transition: all .3 ease;
+}
+
+.side-2 h2:hover{
+    color: var(--red-color);
+    text-shadow: 1px 1px 1px rgb(33, 61, 126);
+}
+
+.item-1:hover{
+    transform: scale(.9);
+}
+
+.item-2:hover{
+    transform: scale(.9);
+}
+
+.item-3:hover{
+    transform: scale(.9);
+}
+
+.item-4:hover{
+    transform: scale(.9);
+}
+
+.card-body h4{
+    color: rgb(33, 61, 126);
+    font-size: 1.5rem;
+    font-weight: 700;
+    transition: all .3 ease;
+}
+
+.card-body h4:hover{
+    color: var(--red-color);
+}
+
+.card-body i{
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: red;
+    transition: all .3 ease;
+}
+
+.card-body i:hover{
+    color: var(--blue-color);
+}
+
+.card-body p{
+    font-size: 1rem;
+    color: var(--black-color);
+    font-weight: bold;
+    margin: .5rem 0;
+}
+
+.card-body button{
+    outline: none;
+    border: none;
+    height: 3.5rem;
+    width: 8rem;
+    border-radius: 45%;
+    font-size: 1rem;
+    background: rgb(33, 61, 126);
+    color: var(--black-color);
+    font-weight: bold;
+    font-family: 'Mulish' sans-serif;
+    text-transform: capitalize;
+    letter-spacing: .3rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all .3 ease;
+}
+
+.card-body button:hover{
+    background: #000;
+    color:rgb(33, 61, 126);
+}
+
+
+/*=============== Media Queries side 1 =================*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media screen and (min-width: 576px) {
+
+    .side-2 h2{
+        font-size: 2.5rem;
+    }
+
+    .card-body h4{
+        font-size: 1.7rem;
+    }
+
+    .card-body i{
+        margin: .5rem 0;
+    }
+
+    .card-body p{
+        font-size: 1.2rem;
+        margin: .5rem 0;
+    }
+
+
+     
+  }
+ 
+ 
+ /* Large devices (desktops, 992px and up)*/
+ @media screen and (min-width: 992px) { 
+
+    .side-2 h2{
+        font-size: 3rem;
+    }
+
+    .card-body h4{
+        font-size: 1.7rem;
+    }
+
+    .card-body i{
+        margin: 1.2rem 0;
+    }
+
+
+  }
+ 
+
+/*========================================================= Services section Ends ===========================================================*/
+
