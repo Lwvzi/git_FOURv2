@@ -191,16 +191,12 @@ a h2:hover{
         width: 100vw;
     }
 
-    .navbar-brand{
-        font-size: 2rem;
-    }
-
     .navbar .navbar-nav .nav-link{
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
 
     a h2{
-        font-size: 2rem;
+        font-size: 2.4rem;
     }
     
  }
@@ -211,15 +207,126 @@ a h2:hover{
         width: 100vw;
     }
 
-    .navbar-brand{
-        font-size: 2.1rem;
-    }
-
     .navbar .navbar-nav .nav-link{
-        font-size: 1.5rem;
+        font-size: 2.3rem;
     }
 
     a h2{
-        font-size: 2.3rem;
+        font-size: 3rem;
     }
  }
+
+
+
+
+ /*========================================================= Home section Starts ===========================================================*/
+
+
+.hero-content{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(135deg, rgba(255, 0, 0, 0.336), rgba(0, 0, 255, 0.429) ), url('.//20220906_150244.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.hero-content h1{
+    padding: 4px 4px;
+    margin: 7px 7px;
+    color: rgb(33, 61, 126);
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px rgba(18, 58, 59, 0.863);
+    letter-spacing: 1px;
+}
+
+.hero-content h2{
+    padding: 4px 4px;
+    margin: 10px 10px;
+    color: rgb(33, 61, 126);
+    font-size: 1.4rem;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px rgba(18, 58, 59, 0.863);
+    letter-spacing: 1px;
+}
+
+.hero-content button{
+    margin-top: 32px;
+    background: rgb(33, 61, 126);
+    color: var(--black-color);
+    height: 4rem;
+    width: 7rem;
+    font-size: 1.3rem;
+    border-radius: 49%;
+    font-weight: 700;
+    border-color: var(--black-color);
+    transition: all .3 ease;
+}
+
+.hero-content button:hover{
+    background: #000;
+    color:rgb(33, 61, 126);
+    border-color: var(--black-color);
+}
+
+
+
+
+/*=============== Media Queries =================*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media screen and (min-width: 576px) {
+   .hero-content h1{
+    padding-top: 1.5rem;
+        font-size: 2rem;
+   }
+
+   .hero-content h2{
+    font-size: 1.9rem;
+   }
+
+   .hero-content button{
+    font-size: 1.5rem;
+   }
+    
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media screen and (min-width: 768px) { 
+    .hero-content h1{
+        font-size: 2.5rem;
+   }
+
+   .hero-content h2{
+    font-size: 2.3rem;
+   }
+
+   .hero-content button{
+    height: 6rem;
+    width: 9rem;
+    font-size: 1.9rem;
+   }
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) { 
+    .hero-content h1{
+        font-size: 3.5rem;
+   }
+
+   .hero-content h2{
+    font-size: 3rem;
+   }
+
+   .hero-content button{
+    height: 7rem;
+    width: 10rem;
+    font-size: 2.5rem;
+   }
+ }
+
+
+
+/*========================================================= Home section Ends ===========================================================*/
