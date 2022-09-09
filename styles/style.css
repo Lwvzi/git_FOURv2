@@ -602,3 +602,105 @@ a h2:hover{
 
 /*========================================================= Services section Ends ===========================================================*/
 
+
+/*========================================================= About section Starts ===========================================================*/
+
+#about h2{
+    margin-top: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.5rem;
+    background: -webkit-linear-gradient(90deg, var(--blue-color), var(--red-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.s-1{
+    background: linear-gradient(90deg, var(--tomato-color), var(--blue-color));
+    
+}
+
+.s-1 p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--black-color);
+    margin: 2rem 0;
+    
+}
+
+.s-1 button{
+    outline: none;
+    border: none;
+    height: 4rem;
+    width: 14rem;
+    border-radius: 45%;
+    font-size: 1.5rem;
+    background: rgb(33, 61, 126);
+    color: var(--red-color);
+    font-weight: bold;
+    font-family: 'Mulish' sans-serif;
+    text-transform: capitalize;
+    letter-spacing: .3rem;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+    transition: all .3 ease;
+    margin-bottom: 1rem;
+}
+
+.s-1 button:hover{
+    background: var(--tomato-color);
+    color: var(--blue-color);
+}
+
+.s-2{
+    background: linear-gradient(90deg, var(--blue-color), var(--tomato-color));
+    
+}
+
+
+
+/*=============== Media Queries =================*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media screen and (min-width: 576px) {
+    
+     
+  }
+ 
+ /* Medium devices (tablets, 768px and up)*/
+ @media screen and (min-width: 768px) { 
+    #about h2{
+        font-size: 4rem;
+    }
+
+    .s-1 p{
+        font-size: 1.3rem;
+    }
+
+    .s-1 button{
+        height: 6rem;
+        font-size: 1.7rem
+    }   
+ 
+  }
+ 
+ /* Large devices (desktops, 992px and up)*/
+ @media screen and (min-width: 992px) { 
+    #about h2{
+        font-size: 4rem;
+    }
+
+    .s-1 p{
+        font-size: 2rem;
+    }
+
+    .s-1 button{
+        height: 7rem;
+        font-size: 2rem
+    }
+  }
+
+/*========================================================= About section Ends ===========================================================*/
+
+
