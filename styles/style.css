@@ -1,0 +1,225 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+/*========================================================= My Code ===========================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'Mulish' 'Barlow' sans-serif;
+    --black-color: rgb(0, 0, 0);
+    --pink-color: rgb(250, 135, 155);
+    --red-color: rgb(255, 0, 0);
+    --tomato-color: rgb(255, 99, 71);
+    --blue-color: rgb(33, 61, 126);
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: all .3s linear;
+}
+
+a h2{
+    color: var(--red-color);
+    font-size: 1.5rem;
+    font-family: 'Barlow' sans-serif;
+    font-weight: 700;
+}
+
+
+
+
+
+/*==================== NavBar =================*/
+
+.navbar{
+    box-shadow: 0px 6px 21px rgba(128, 128, 128, 0.549);
+}
+
+
+
+a h2:hover{
+    color: var(--blue-color);
+}
+
+.navbar .navbar-nav .nav-link{
+    font-size: 1.2rem;
+    font-family: 'Mulish' sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all .3 ease;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active{
+    color: var(--blue-color) !important;
+}
+
+
+.fa-bars{
+    font-size: 1.3rem;
+    color: var(--red-color);
+    transition: all .3 ease;
+}
+
+.fa-bars:hover{
+    color: var(--blue-color);
+}
+
+
+/*=============== Media Queries =================*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media screen and (min-width: 576px) {
+    .navbar{
+        width: 100vw;
+    }
+
+    .navbar .navbar-nav .nav-link{
+        font-size: 1.2rem;
+    }
+
+    a h2{
+        font-size: 1.5rem;
+    }
+    
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media screen and (min-width: 768px) { 
+    .navbar{
+        width: 100vw;
+    }
+
+    .navbar-brand{
+        font-size: 2rem;
+    }
+
+    .navbar .navbar-nav .nav-link{
+        font-size: 1.4rem;
+    }
+
+    a h2{
+        font-size: 2rem;
+    }
+    
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) { 
+    .navbar{
+        width: 100vw;
+    }
+
+    .navbar-brand{
+        font-size: 2.1rem;
+    }
+
+    .navbar .navbar-nav .nav-link{
+        font-size: 1.5rem;
+    }
+
+    a h2{
+        font-size: 2.3rem;
+    }
+ }
